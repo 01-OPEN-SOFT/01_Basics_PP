@@ -47,14 +47,14 @@ Blockkommentar
 
 /* Variablen vs. Konstanten in JS */
 
-// Variable
-let test;                                      // Variable : Deklaration
-test = "hi";                                   // Wertzuweisung (Initialisierung)
-test = "hello";                                // Überschreiben
-console.log("Inhalt: " + test);                // Ausgabe: Inhalt: hello
+// // Variable
+// let test;                                      // Variable : Deklaration
+// test = "hi";                                   // Wertzuweisung (Initialisierung)
+// test = "hello";                                // Überschreiben
+// console.log("Inhalt: " + test);                // Ausgabe: Inhalt: hello
 
-// Konstante
-const test2 = "Hi!";                            // Konstante : Deklaration und Zuweisung
-console.log("Inhalt: " + test2);                // Ausgabe: Inhalt: Hi!
-test2 = "Hiiiii!";                              // Zuweisung der Konstanten einen anderen Wert 
-console.log("Inhalt: " + test2);                // Fehlermeldung. Überschreiben nicht möglich.
+// // Konstante
+// const test2 = "Hi!";                            // Konstante : Deklaration und Zuweisung
+// console.log("Inhalt: " + test2);                // Ausgabe: Inhalt: Hi!
+// test2 = "Hiiiii!";                              // Zuweisung der Konstanten einen anderen Wert 
+// console.log("Inhalt: " + test2);                // Fehlermeldung. Überschreiben nicht möglich.
