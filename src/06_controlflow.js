@@ -34,38 +34,38 @@
 
 /****** Fallunterscheidung / SWITCH|CASE 1 ******/
 
-// const firstName = 'Jane';
-// let job;
+const firstName = 'Jane';
+let job;
 
-// job = 'driver'; // .. fährt TAXI! / UBER
-// job = 'diver'; // .. taucht im Rhein!
-// job = 'artist'; // .. malt ein Bild!
-// job = 'pilot'; // .. macht etwas anderes! --> default
-// job = 'teacher'; // .. unterrichtet!
-// job = 'instructor'; // .. unterrichtet!
+job = 'driver'; // .. fährt TAXI! / UBER
+job = 'diver'; // .. taucht im Rhein!
+job = 'artist'; // .. malt ein Bild!
+job = 'pilot'; // .. macht etwas anderes! --> default
+job = 'teacher'; // .. unterrichtet!
+job = 'instructor'; // .. unterrichtet!
 
-// switch (job) {
-//   case 'driver': // job = driver
-//     console.log(firstName + ' fährt TAXI!');
-//     break;
+switch (job) {
+  case 'driver': // job = driver
+    console.log(firstName + ' fährt TAXI!');
+    break;
 
-//   case 'diver': // job = driver
-//     console.log(firstName + ' taucht im Rhein!');
-//     break;
+  case 'diver': // job = driver
+    console.log(firstName + ' taucht im Rhein!');
+    break;
 
-//   case 'artist': // job = artist
-//     console.log(firstName + ' malt ein Bild!');
-//     break;
+  case 'artist': // job = artist
+    console.log(firstName + ' malt ein Bild!');
+    break;
 
-//   case 'teacher': // job = teacher
-//   case 'instructor': // job = instructor
-//     console.log(firstName + ' unterrichtet!');
-//     break;
+  case 'teacher': // job = teacher
+  case 'instructor': // job = instructor
+    console.log(firstName + ' unterrichtet!');
+    break;
 
-//   default: // WICHTIG!!! Immer als erstes deklarieren.
-//     console.log(firstName + ' macht etwas anderes!');
-//     break;
-// }
+  default: // WICHTIG!!! Immer als erstes deklarieren.
+    console.log(firstName + ' macht etwas anderes!');
+    break;
+}
 
 
 /********  Fallunterscheidung / SWITCH|CASE 2 *******/
@@ -84,3 +84,4 @@ switch (cond) {
         console.log("Value hat einen anderen Wert.");
         break;
 }
+
