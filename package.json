@@ -2,7 +2,7 @@
   "name": "01_basics_pp",
   "version": "1.0.0",
   "description": "## Programmierung Hello World",
-  "main": "src/03_prompt.js",
+  "main": "src/05 _wahrheitswerte.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
