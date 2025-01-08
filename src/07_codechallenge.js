@@ -24,7 +24,7 @@ let age = parseInt(prompt('Age input: '));
 
 switch (true) {
   case age >= 0 && age < 6:
-    console.log(name + ' ' + 'trinkt Cola.');
+    console.log(name + ' ' + 'trinkt Milch.');
     break;
 
   case age > 5 && age < 13:
