@@ -3,13 +3,32 @@
 0. a+b | a-b | a*b | a/b  --> Ergebnis c 
 
 1. Dateneingabe + -überprüfung :  
-2. Auswahl Rechenart : 
+X 2. Auswahl Rechenart : 
 X 3. Fkt. Grundrechenarten : 
 X 4. Ausgabe in Konsole :
 */
 
 const ERROR_STR_DIV = 'Teilen durch 0 nicht möglich!';
 const ERROR_STR_FEHLER = 'Fehler, es funktioniert nicht!';
+
+const prompt = require('prompt-sync')({ sigint: true });
+
+startApp();
+function startApp() {
+  output(calculator(getNum1(), getNum2(), getOp()));
+}
+
+function getOp() {
+  return prompt('OP?: ');
+}
+
+function getNum1() {
+  return prompt('Zahl 1 eingeben: ');
+}
+
+function getNum2() {
+  return prompt('Zahl 1 eingeben: ');
+}
 
 // MODULE: CALCULATOR
 function calculator(a, b, op) {
@@ -57,3 +76,6 @@ function add(a, b) {
 function output(outputData) {
   console.log(outputData);
 }
+
+
+asdasdsad
