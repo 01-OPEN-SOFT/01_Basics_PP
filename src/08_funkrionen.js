@@ -81,3 +81,4 @@ function output(outputData) {
 }
 
 output(getString('Max', 'Mütze'));
+
