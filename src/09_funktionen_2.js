@@ -8,10 +8,10 @@ X 3. Fkt. Grundrechenarten :
 X 4. Ausgabe in Konsole :
 */
 
-const ERROR_STR_DIV = 'Teilen durch 0 nicht möglich!';
-const ERROR_STR_FEHLER = 'Fehler, es funktioniert nicht!';
+const ERROR_STR_DIV = "Teilen durch 0 nicht möglich!";
+const ERROR_STR_FEHLER = "Fehler, es funktioniert nicht!";
 
-const prompt = require('prompt-sync')({ sigint: true });
+const prompt = require("prompt-sync")({ sigint: true });
 
 startApp();
 function startApp() {
@@ -19,28 +19,28 @@ function startApp() {
 }
 
 function getOp() {
-  return prompt('OP?: ');
+  return prompt("OP?: ");
 }
 
 function getNum1() {
-  return prompt('Zahl 1 eingeben: ');
+  return prompt("Zahl 1 eingeben: ");
 }
 
 function getNum2() {
-  return prompt('Zahl 1 eingeben: ');
+  return prompt("Zahl 1 eingeben: ");
 }
 
 // MODULE: CALCULATOR
 function calculator(a, b, op) {
   switch (op) {
-    case '+':
+    case "+":
       return add(a, b);
-    case '-':
+    case "-":
       return sub(a, b);
-    case '*':
+    case "*":
       return mult(a, b);
-    case '/':
-    case ':':
+    case "/":
+    case ":":
       return div(a, b);
     default:
       return ERROR_STR_FEHLER;
@@ -76,6 +76,3 @@ function add(a, b) {
 function output(outputData) {
   console.log(outputData);
 }
-
-
-asdasdsad
