@@ -8,6 +8,19 @@
 X 4. Ausgabe in Konsole :
 */
 
+// module: div a / b |  test:
+// output(div(4,2));
+// output(div(3,2));
+// output(div(3,-2));
+// output(div(0,2));
+// output(div(3,0));
+// output(div(0,0));
+
+// MODULE: DIVISION a / b
+function div(a, b) {
+  return a / b;
+}
+
 // MODULE: MULTIPLICATION a * b
 function mult(a, b) {
   return a * b;
