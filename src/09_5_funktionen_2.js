@@ -1,18 +1,21 @@
-const fehler1 = "Leider, durch 0 kann nicht dividiert werden"
+const FEHLER1 = "Leider, durch 0 kann nicht dividiert werden"
 
-//TEST
-console.log(div(3, 0));
+// CALCULATOR
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
 
 // ALLES "+" "-" "/" "*"
 function div(a, b) {
     if (b == 0) {
-      console.log(fehler1);
+      console.log(FEHLER1);
     } 
-    
-    else {
       return a / b
-    }
-
 }
 
 function mult(a, b) {

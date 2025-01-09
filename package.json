@@ -2,7 +2,7 @@
   "name": "01_basics_pp",
   "version": "1.0.0",
   "description": "## Programmierung Hello World",
-  "main": "src/01_Basics_PP/package.json",
+  "main": "src/09_5_funktionen_2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
