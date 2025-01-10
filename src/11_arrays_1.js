@@ -9,13 +9,13 @@
 
 let arr;
 //arr = new Array();  // Konstruktor
-arr = []; // so geht auch
-arr = [2, 11, 7, 8, 10];
+// arr = []; // so geht auch
+// arr = [2, 11, 7, 8, 10];
 
-output(arr);
-output(arr.length); // gibt die Anzahl an Worten
-output(arr[0]); // Index 0 (1 Pos. im Array)
-output(arr[arr.length - 1]);
+// output(arr);
+// output(arr.length); // gibt die Anzahl an Worten
+// output(arr[0]); // Index 0 (1 Pos. im Array)
+// output(arr[arr.length - 1]);
 
 /**
  *   PRAXIS
@@ -27,10 +27,32 @@ output(arr[arr.length - 1]);
 // output(getSentence('Ich', 'bin', 'Max', 'Mütze'));
 // output(getSentence('Ich', 'bin', 'die', 'coole', 'Maxine', 'Mützerich'));
 
-function getSentence(word1, word2, word3, word4) {
+// function getSentence(word1, word2, word3, word4) {
+//   const GAP = ' ';
+//   const PUNCT = '.';
+//   let str = word1 + GAP + word2 + GAP + word3 + GAP + word4 + PUNCT;
+
+//   return str;
+// }
+
+/*** 01a. Funktionalität mit Array 1 */
+output(getSentenceArr(['Ich', 'bin', 'die', 'coole', 'Maxine', 'Mützerich']));
+function getSentenceArr(arr) {
   const GAP = ' ';
   const PUNCT = '.';
-  let str = word1 + GAP + word2 + GAP + word3 + GAP + word4 + PUNCT;
+  let str =
+    arr[0] +
+    GAP +
+    arr[1] +
+    GAP +
+    arr[2] +
+    GAP +
+    arr[3] +
+    GAP +
+    arr[4] +
+    GAP +
+    arr[5] +
+    PUNCT;
 
   return str;
 }
